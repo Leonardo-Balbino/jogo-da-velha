@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                
+                  <div class=" p-2"><h1>Jogo Da Velha</h1></div>
+            </div>
+            <hr>
+
+
+            <div class="col-md-12">
+
+                
+                <div class="no-hide hide">
+                    <div class="d-flex justify-content-center ">   
+                        <div class="box bg p-2" id="block-1"></div>
+                        <div class="box bg p-2" id="block-2"></div>
+                        <div class="box bg p-2" id="block-3"></div>  
+                    </div>
+                    <div class="d-flex justify-content-center">   
+                        <div class="box bg p-2" id="block-4"></div>
+                        <div class="box bg p-2" id="block-5"></div>
+                        <div class="box bg p-2" id="block-6"></div>  
+                    </div>
+                    <div class="d-flex justify-content-center">   
+                        <div class="box bg p-2" id="block-7"></div>
+                        <div class="box bg p-2" id="block-8"></div>
+                        <div class="box bg p-2" id="block-9"></div>  
+                    </div>
+                </div>
+
+                    
+
+                
+
+            </div>
+            
+                
+      
+            <hr>
+            
+
+            <div class="d-flex justify-content-center ">
+                
+                <div class="buttons-container">
+                    <button id="2-players" class="btn btn-info" style="color: white;">Jogar com Amigo</button>
+                    <button id="IA-players" class="btn btn-success">Jogar com IA</button>
+                </div>
+          </div>
+
+          <p> </p>
+
+          <div class="d-flex justify-content-center ">
+            <div id="scoreboard-container">
+                <h2>Placar:</h2>
+                <span class="score-box">
+                    <span id="x-scoreboard">X</span>:
+                    <span id="scoreboard-1">0</span>
+                </span>
+                <span class="score-box">
+                    <span id="o-scoreboard"></span>:
+                    <span id="scoreboard-2">0</span>
+                </span>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div id="message" class="hide">
+            <div class="d-flex justify-content-center">
+                <p>sdfjfhj</p>
+            </div> 
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-center ">
+            <div class="hide">
+                <div class="x">x</div>
+                <div class="o"></div>
+            </div>
+            <div class="hide">
+                <p></p>
+            </div>
+        </div>
+            
+       
+    </div>
+
+    
+    
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
